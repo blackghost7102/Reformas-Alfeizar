@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 920" width="100%" height="100%" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Título -->
+  <text x="500" y="48" text-anchor="middle" font-size="22" font-weight="600" fill="#111827">Piso García · estado actual · cotas en metros</text>
+
+  <g transform="translate(100, 80)">
+    <!-- Fondos de estancias -->
+    <rect x="0" y="0" width="500" height="400" fill="#f6f4ee" />
+    <rect x="500" y="0" width="300" height="400" fill="#f6f4ee" />
+    <rect x="0" y="400" width="800" height="100" fill="#f6f4ee" />
+    <rect x="0" y="500" width="350" height="250" fill="#f6f4ee" />
+    <rect x="350" y="500" width="250" height="250" fill="#f6f4ee" />
+    <rect x="600" y="500" width="200" height="250" fill="#f6f4ee" />
+
+    <!-- Paredes interiores -->
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#0f172a" stroke-width="6" />
+    <line x1="0" y1="500" x2="800" y2="500" stroke="#0f172a" stroke-width="6" />
+    <line x1="500" y1="0" x2="500" y2="400" stroke="#0f172a" stroke-width="6" />
+    <line x1="350" y1="500" x2="350" y2="750" stroke="#0f172a" stroke-width="6" />
+    <line x1="600" y1="500" x2="600" y2="750" stroke="#0f172a" stroke-width="6" />
+
+    <!-- Perímetro exterior -->
+    <rect x="0" y="0" width="800" height="750" fill="none" stroke="#0f172a" stroke-width="8" />
+
+    <!-- Puertas (Huecos blancos) -->
+    <line x1="180" y1="400" x2="260" y2="400" stroke="#f6f4ee" stroke-width="12" />
+    <line x1="610" y1="400" x2="690" y2="400" stroke="#f6f4ee" stroke-width="12" />
+    <line x1="180" y1="500" x2="260" y2="500" stroke="#f6f4ee" stroke-width="12" />
+    <line x1="430" y1="500" x2="510" y2="500" stroke="#f6f4ee" stroke-width="12" />
+    <line x1="640" y1="500" x2="720" y2="500" stroke="#f6f4ee" stroke-width="12" />
+
+    <!-- Ventanas (Líneas azules) -->
+    <line x1="130" y1="0" x2="270" y2="0" stroke="#3b82f6" stroke-width="8" />
+    <line x1="600" y1="0" x2="720" y2="0" stroke="#3b82f6" stroke-width="8" />
+    <line x1="100" y1="750" x2="230" y2="750" stroke="#3b82f6" stroke-width="8" />
+    <line x1="410" y1="750" x2="540" y2="750" stroke="#3b82f6" stroke-width="8" />
+    <line x1="800" y1="580" x2="800" y2="670" stroke="#3b82f6" stroke-width="8" />
+
+    <!-- Etiquetas de texto y cotas -->
+    <text x="250" y="190" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Salón</text>
+    <text x="250" y="215" text-anchor="middle" font-size="14" fill="#374151">5 x 4 · 20.00 m²</text>
+
+    <text x="650" y="190" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Cocina</text>
+    <text x="650" y="215" text-anchor="middle" font-size="14" fill="#374151">3 x 4 · 12.00 m²</text>
+
+    <text x="400" y="443" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Pasillo</text>
+    <text x="400" y="468" text-anchor="middle" font-size="14" fill="#374151">8 x 1 · 8.00 m²</text>
+
+    <text x="175" y="615" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Dormitorio 1</text>
+    <text x="175" y="640" text-anchor="middle" font-size="14" fill="#374151">3.5 x 2.5 · 8.75 m²</text>
+
+    <text x="475" y="615" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Dormitorio 2</text>
+    <text x="475" y="640" text-anchor="middle" font-size="14" fill="#374151">2.5 x 2.5 · 6.25 m²</text>
+
+    <text x="700" y="615" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">Baño</text>
+    <text x="700" y="640" text-anchor="middle" font-size="14" fill="#374151">2 x 2.5 · 5.00 m²</text>
+  </g>
+
+  <!-- Leyenda inferior -->
+  <text x="500" y="875" text-anchor="middle" font-size="14" fill="#4b5563">Azul = ventana · hueco blanco = puerta · Norte arriba.</text>
+</svg>
